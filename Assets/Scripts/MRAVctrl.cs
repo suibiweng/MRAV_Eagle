@@ -9,6 +9,8 @@ public class MRAVctrl : MonoBehaviour
     public GameObject [] BackGroundFX;
     public GameObject [] OneShotFx;
 
+    public GameObject [] ControllerHolo;
+
 
 
     public OSC osc;
@@ -19,7 +21,7 @@ public class MRAVctrl : MonoBehaviour
 
         osc=FindObjectOfType<OSC>();
         osc.SetAllMessageHandler(Recive);
-      //  osc.SetAddressHandler(Recive);
+      
         
     }
 
@@ -30,13 +32,30 @@ public class MRAVctrl : MonoBehaviour
         
         {
             //Background
-            case "/Ableton/SweepVol":
-            print( oscMessage.GetFloat(0));
+            case "/TestBackGround":
+              TriggerBackGround((int)Random.Range(0,BackGroundFX.Length));
             break;
 
             //OneShot
-            case "/Ableton/S":
-            print( oscMessage.GetFloat(0));
+            case "/TestOneshot":
+           TriggerOnshot((int)Random.Range(0,OneShotFx.Length));
+            break;
+
+            case "/RU":
+           TriggerOnshot((int)Random.Range(0,OneShotFx.Length));
+            break;
+
+            case "/LU":
+           TriggerOnshot((int)Random.Range(0,OneShotFx.Length));
+            break;
+
+
+            case "/RD":
+           TriggerOnshot((int)Random.Range(0,OneShotFx.Length));
+            break;
+
+            case "/LD":
+           TriggerOnshot((int)Random.Range(0,OneShotFx.Length));
             break;
 
 
@@ -63,8 +82,22 @@ public class MRAVctrl : MonoBehaviour
 
         }
 
+
+
+
+
+
+
         
     }
+    void HoloFx(int i){
+
+
+
+    }
+
+
+
 
     void TriggerOnshot(int i){
 
