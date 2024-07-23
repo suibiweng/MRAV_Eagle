@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "MRDJ.sln"
+    "dotnet.defaultSolution": "MRAV_Eagle.sln"
 }

@@ -21,7 +21,7 @@ public class birdPath : MonoBehaviour
 
     void CircularFlying(){
 
-        transform.position=( new Vector3(r*Mathf.Cos(angle),r*Mathf.Cos(angle),r*Mathf.Sin(angle)));
+        transform.localPosition=( new Vector3(r*Mathf.Cos(angle),r*Mathf.Cos(angle),r*Mathf.Sin(angle)));
         angle+=speedf;
 
 
