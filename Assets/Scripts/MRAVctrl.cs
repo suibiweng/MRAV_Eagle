@@ -59,6 +59,89 @@ public class MRAVctrl : MonoBehaviour
             break;
 
 
+                        //OneShot
+            case "/T1":
+           TriggerOnshot((int)Random.Range(0,OneShotFx.Length));
+            break;
+
+            case "/T2":
+           TriggerOnshot((int)Random.Range(0,OneShotFx.Length));
+            break;
+
+            case "/T3":
+            TriggerBackGround((int)Random.Range(0,OneShotFx.Length));
+           //TriggerOnshot((int)Random.Range(0,OneShotFx.Length));
+            break;
+
+
+            case "/T4":
+           TriggerOnshot((int)Random.Range(0,OneShotFx.Length));
+            break;
+
+
+                                   //OneShot
+            case "/TM1":
+           TriggerOnshot((int)Random.Range(0,OneShotFx.Length));
+            break;
+
+            case "/TM2":
+           TriggerOnshot((int)Random.Range(0,OneShotFx.Length));
+            break;
+
+            case "/TM3":
+           TriggerOnshot((int)Random.Range(0,OneShotFx.Length));
+            break;
+
+            case "/TM4":
+           TriggerOnshot((int)Random.Range(0,OneShotFx.Length));
+            break;
+
+
+
+                                               //OneShot
+            case "/BM1":
+           TriggerOnshot((int)Random.Range(0,OneShotFx.Length));
+            break;
+
+            case "/BM2":
+           TriggerOnshot((int)Random.Range(0,OneShotFx.Length));
+            break;
+
+            case "/BM3":
+           TriggerOnshot((int)Random.Range(0,OneShotFx.Length));
+            break;
+
+            case "/BM4":
+           TriggerOnshot((int)Random.Range(0,OneShotFx.Length));
+            break;
+
+
+
+            case "/B1":
+                TriggerOnshot((int)Random.Range(0,OneShotFx.Length));
+            break;
+
+            case "/B2":
+            TriggerOnshot((int)Random.Range(0,OneShotFx.Length));
+            break;
+
+            case "/B3":
+                TriggerOnshot((int)Random.Range(0,OneShotFx.Length));
+            break;
+
+            case "/B4":
+                TriggerOnshot((int)Random.Range(0,OneShotFx.Length));
+            break;
+
+
+
+
+
+
+
+
+
+
         }
       
 

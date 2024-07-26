@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class SkyboxControl : MonoBehaviour
 {
+    public Material material;
+    public float Exposure = 0;
     // Start is called before the first frame update
     void Start()
     {

@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Mockup.unity
+    guid: fc8ebd5b083c85944a8e79d0bd138393
+  - enabled: 1
     path: Assets/Scenes/AnchorPassThru.unity
     guid: 87ee0bc145b8d9b4483e8b4cbe789574
   m_configObjects:
