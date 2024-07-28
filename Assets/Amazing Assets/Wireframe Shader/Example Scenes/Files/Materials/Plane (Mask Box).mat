@@ -2,25 +2,38 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Plane (Mask Box)
-  m_Shader: {fileID: 4800000, guid: 1c45e2db581528b49a3b9872e7bcc0ac, type: 3}
-  m_ShaderKeywords: WIREFRAME_DYNAMIC_MASK_BOX _METALLICGLOSSMAP _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+  m_Shader: {fileID: -6465566751694194690, guid: 7875802bd5f3695409c61045439bb933, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - ENUM_5442A9AC_BOX
+  m_InvalidKeywords:
+  - ENUM_5312DE06_NONE
+  - WIREFRAME_DYNAMIC_MASK_PLANE
+  - _METALLICGLOSSMAP
+  - _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: a2c243315bffe314b8862ba1626d7c70, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -63,7 +76,24 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
+    - ENUM_5442A9AC: 2
+    - Vector1_BD6DE493: 5
+    - Vector1_C691CA19: 0
+    - Vector1_CF184A9E: 0
     - _BumpScale: 1
     - _CurvedWorldTitle: 0
     - _Cutoff: 0.5
@@ -76,6 +106,8 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _QueueControl: 0
+    - _QueueOffset: 0
     - _SmoothnessTextureChannel: 1
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -83,7 +115,7 @@ Material:
     - _WireframeShader_Diameter: 0.5
     - _WireframeShader_Smoothness: 0
     - _WireframeShader_Thickness: 0.01
-    - _Wireframe_ColorEmissionStrength: 1
+    - _Wireframe_ColorEmissionStrength: 0.1
     - _Wireframe_DistanceFade: 0
     - _Wireframe_DistanceFadeEnd: 10
     - _Wireframe_DistanceFadeStart: 5
@@ -108,8 +140,23 @@ Material:
     - _Wireframe_TransparentTex_Invert: 0
     - _ZWrite: 1
     m_Colors:
+    - _BaseColor: {r: 0.1981132, g: 0.1981132, b: 0.1981132, a: 1}
     - _Color: {r: 0.3301887, g: 0.3301887, b: 0.3301887, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.1981132, g: 0.1981132, b: 0.1981132, a: 1}
-    - _Wireframe_Color: {r: 0.08235294, g: 0.37462485, b: 0.8784314, a: 1}
+    - _Wireframe_Color: {r: 0.06145063, g: 0.27994177, b: 0.65205944, a: 1}
     - _Wireframe_ColorTexture_Scroll: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &4025969177052327
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7

@@ -12,6 +12,17 @@ namespace AmazingAssets.WireframeShader.Example
         new public Renderer renderer;
         public Material wireframeMaterial;
 
+        void Start()
+        {
+            if (UnityEngine.Rendering.GraphicsSettings.renderPipelineAsset != null)
+            {
+                //Dynamic globlal illumination is not supported in Universal and High Definition render pipelines, only in Built-in(Standard).
+
+                this.gameObject.SetActive(false);
+            }
+
+        }
+
 
         public void OnUIColorChange(float value)
         {

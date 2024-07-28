@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System.Collections;
 using UnityEngine.UI;
 
 
@@ -35,7 +36,9 @@ namespace AmazingAssets.WireframeShader.Example
 
             wireframeMesh = meshFilter.sharedMesh.GenerateWireframeMesh(false, tryQuad);
 
-            uiText.text = string.Format("Wireframe generation speed: {0} ms", (Time.realtimeSinceStartup - time).ToString("f5"));
+
+            if(uiText != null)
+                uiText.text = string.Format("Wireframe generation speed: {0} ms", (Time.realtimeSinceStartup - time).ToString("f5"));
 
 
 
