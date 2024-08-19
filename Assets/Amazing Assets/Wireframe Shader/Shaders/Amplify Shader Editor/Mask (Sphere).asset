@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: Mask (Sphere)
   m_EditorClassIdentifier: 
   m_functionInfo: "// Made with Amplify Shader Editor\n// Available at the Unity
-    Asset Store - http://u3d.as/y3X \n/*ASEBEGIN\nVersion=18921\n701.6727;90.76363;1618.036;752.2363;574.6757;436.0324;1;True;True\nNode;AmplifyShaderEditor.FunctionInput;7;34.84253,71.47659;Inherit;False;Edge
-    Smooth;1;0;False;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionInput;8;31.84253,172.4766;Inherit;False;Invert;1;1;False;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.WorldPosInputsNode;6;20.84253,-106.5234;Inherit;False;0;4;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3\nNode;AmplifyShaderEditor.RangedFloatNode;10;24.34253,-225.0234;Inherit;False;Property;_WireframeShaderMaskSphereRadius;Sphere
-    Radius;1;1;[HideInInspector];Create;False;0;0;0;False;0;False;0;0;0;0;0;1;FLOAT;0\nNode;AmplifyShaderEditor.Vector3Node;9;-0.6575012,-414.0234;Inherit;False;Property;_WireframeShaderMaskSpherePosition;Sphere
-    Position;0;1;[HideInInspector];Create;False;0;0;0;False;0;False;0,0,0;0,0,0;0;4;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3\nNode;AmplifyShaderEditor.CustomExpressionNode;3;364,-105.5;Inherit;False;return
+    Asset Store - http://u3d.as/y3X \n/*ASEBEGIN\nVersion=18921\n701.6727;90.76363;1618.036;752.2363;597.6756;498.087;1;True;True\nNode;AmplifyShaderEditor.FunctionInput;7;34.84253,71.47659;Inherit;False;Edge
+    Smooth;1;0;False;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionInput;8;31.84253,172.4766;Inherit;False;Invert;1;1;False;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.WorldPosInputsNode;6;20.84253,-106.5234;Inherit;False;0;4;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3\nNode;AmplifyShaderEditor.CustomExpressionNode;3;360,-103.5;Inherit;False;return
     WireframeShaderMaskSphere(SpherePosition, SphereRadius,  vertexPositionWS, edgeFalloff,
-    invert)@;1;Create;5;True;SpherePosition;FLOAT3;0,0,0;In;;Inherit;False;True;SphereRadius;FLOAT;0;In;;Inherit;False;False;vertexPositionWS;FLOAT3;0,0,0;In;;Inherit;False;False;edgeFalloff;FLOAT;0;In;;Inherit;False;False;invert;FLOAT;0;In;Enum(Off,0,On,1);Inherit;False;AAWireframeShaderMaskSphere;False;False;0;;False;5;0;FLOAT3;0,0,0;False;1;FLOAT;0;False;2;FLOAT3;0,0,0;False;3;FLOAT;0;False;4;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionOutput;0;680,-104;Inherit;False;True;-1;Mask
-    Value;0;False;1;0;FLOAT;0;False;1;FLOAT;0\nWireConnection;3;0;9;0\nWireConnection;3;1;10;0\nWireConnection;3;2;6;0\nWireConnection;3;3;7;0\nWireConnection;3;4;8;0\nWireConnection;0;0;3;0\nASEEND*/\n//CHKSM=6CC285F66F7BEF935FBE8231D60AD01BC595B827"
+    invert)@;1;Create;5;True;SpherePosition;FLOAT3;0,0,0;In;;Inherit;False;True;SphereRadius;FLOAT;0;In;;Inherit;False;False;vertexPositionWS;FLOAT3;0,0,0;In;;Inherit;False;False;edgeFalloff;FLOAT;0;In;;Inherit;False;False;invert;FLOAT;0;In;Enum(Off,0,On,1);Inherit;False;AAWireframeShaderMaskSphere;False;False;0;;False;5;0;FLOAT3;0,0,0;False;1;FLOAT;0;False;2;FLOAT3;0,0,0;False;3;FLOAT;0;False;4;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.RangedFloatNode;10;34.34253,-233.0234;Inherit;False;Property;_WireframeShaderMaskSphereRadius;Sphere
+    Radius;1;1;[HideInInspector];Create;False;0;0;0;False;0;False;0;0;0;0;0;1;FLOAT;0\nNode;AmplifyShaderEditor.Vector3Node;9;18.3425,-401.0234;Inherit;False;Property;_WireframeShaderMaskSpherePosition;Sphere
+    Position;0;1;[HideInInspector];Create;False;0;0;0;False;0;False;0,0,0;0,0,0;0;4;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3\nNode;AmplifyShaderEditor.FunctionOutput;0;680,-102;Inherit;False;True;-1;Mask
+    Value;0;False;1;0;FLOAT;0;False;1;FLOAT;0\nWireConnection;3;0;9;0\nWireConnection;3;1;10;0\nWireConnection;3;2;6;0\nWireConnection;3;3;7;0\nWireConnection;3;4;8;0\nWireConnection;0;0;3;0\nASEEND*/\n//CHKSM=C1A8DD3EB4D587456BE33B6BFCDBF252206BC34F"
   m_functionName: 
   m_description: 
   m_additionalIncludes:

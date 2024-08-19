@@ -3,6 +3,7 @@
 
 namespace AmazingAssets.WireframeShader
 {
+
     [ExecuteAlways]
     public class WireframeMaskController : MonoBehaviour
     {
