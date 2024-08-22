@@ -47,6 +47,11 @@ public class SimpleFollowSpline : MonoBehaviour
         // The object will maintain its original rotation (always facing forward)
     }
 
+    public Vector3 GetCurrentPosition()
+    {
+        return EvaluateSplinePosition(progress);
+    }
+
     private Vector3 EvaluateSplinePosition(float t)
     {
         int count = worldKnots.Length;
